@@ -33,7 +33,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
-ALLOWED_HOSTS = ['8000-camdah77-djangoblog-dobh9pkq2kj.ws-eu106.gitpod.io',
+ALLOWED_HOSTS = ['https://8000-camdah77-djangoblog-dobh9pkq2kj.ws-eu106.gitpod.io/',
+                '8000-camdah77-djangoblog-dobh9pkq2kj.ws-eu106.gitpod.io',
                 'camillablog.herokuapp.com', 'localhost']
 
 
@@ -80,6 +81,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'allauth.account.middleware.AccountMiddleware',
 ]
 
 ROOT_URLCONF = 'codestar.urls'
