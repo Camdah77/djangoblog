@@ -33,7 +33,6 @@ DEBUG = True
 ALLOWED_HOSTS = ['8000-camdah77-djangoblog-dobh9pkq2kj.ws-eu106.gitpod.io',
                 'camillablog.herokuapp.com', 'localhost']
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -45,6 +44,7 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
+    'django_summernote',
     'blog',
 ]
 
@@ -75,7 +75,6 @@ TEMPLATES = [
         },
     },
 ]
-
 WSGI_APPLICATION = 'codestar.wsgi.application'
 
 
