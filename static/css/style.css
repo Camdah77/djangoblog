@@ -6,11 +6,11 @@ body {
     font-family: Lato, sans-serif;
     font-size: 1.4rem;
     font-weight: 700;
-    color: #dd76dd;
+    color: #d193d1;
 }
 
 .red-o {
-    color: #10e8b2;
+    color: #d193d1;
 }
 
 .thin {
@@ -26,7 +26,7 @@ body {
 }
 
 .main-bg {
-    background-color: #0d0d0e;
+    background-color: #64A0A0;
 }
 
 .card {
@@ -43,7 +43,7 @@ body {
     bottom: 5%;
     min-width: 30%;
     left: -2px;
-    background-color: #23BBBB;
+    background-color: #64A0A0;
 }
 
 .author {
@@ -107,7 +107,7 @@ body {
 }
 
 .btn-signup {
-    background-color: #23BBBB;
+    background-color: #64A0A0;
     color: #fff;
 }
 
