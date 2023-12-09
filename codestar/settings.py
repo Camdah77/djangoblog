@@ -33,7 +33,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
-ALLOWED_HOSTS = ["8000-camdah77-djangoblog-dobh9pkq2kj.ws-eu106.gitpod.io", 
+ALLOWED_HOSTS = ['https://camillablog.herokuapp.com/',
                 'https://camillablog-6bb3d7ef0a6c.herokuapp.com/',
                 "camillablog.herokuapp.com", "localhost",]
 
